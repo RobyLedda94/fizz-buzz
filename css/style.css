@@ -46,6 +46,22 @@
     background-color: cadetblue;
 }
 
+.bg-darkgray {
+    background-color: darkgrey;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-burlywood {
+    background-color: burlywood;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 
 .txt-white {
     color: white;
