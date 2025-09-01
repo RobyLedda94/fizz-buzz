@@ -2,6 +2,7 @@
 
 let btn_fizzBuzz_start = document.getElementById('btn-fizzBuzz-start'); // Bottone Start
 
+
 let btn_fizBuzz_reset = document.getElementById('btn-fizzBuzz-reset'); // Bottone Reset
 
 
@@ -87,8 +88,14 @@ btn_fizzBuzz_start.addEventListener('click', function () {
 
 btn_fizBuzz_reset.addEventListener('click', function () {
 
+    // Reset stile contenitore della griglia
 
-    console.log(this); // Debugging
+    grid_container.style.padding = '';
+
+    grid_container.style.backgroundColor = '';
+
+
+    gridfizzBuzz.innerHTML = ''; // Svuoto il contenuto della griglia
 
 
 });
