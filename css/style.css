@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+/* Layout */
+
+.content-header {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+.content-main {
+    height: 300px;
+    background-color: cadetblue;
+}
+
+
+
+/* Utility */
+
+.pt-10px {
+    padding-top: 10px;
+}
+
+
+
+/* Style */
+
+.bg-cadetblue {
+    background-color: cadetblue;
+}
+
+
+.txt-white {
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Media query */
+
+@media screen and (min-width: 576px) {
+    .media-button {
+        justify-content: end;
+    }
+}
