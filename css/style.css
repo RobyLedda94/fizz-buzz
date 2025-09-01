@@ -15,8 +15,20 @@
 }
 
 .content-main {
-    height: 300px;
     background-color: cadetblue;
+}
+
+
+#gridFizzBuzz {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: calc(100% / 2);
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
@@ -49,8 +61,20 @@
 
 /* Media query */
 
+@media screen and (min-width: 376px) {
+    .square {
+        width: calc(100% / 5);
+    }
+}
+
 @media screen and (min-width: 576px) {
     .media-button {
         justify-content: end;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .square {
+        width: calc(100% / 10);
     }
 }
