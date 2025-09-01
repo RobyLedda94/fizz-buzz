@@ -20,7 +20,11 @@ btn_fizzBuzz.addEventListener('click', function () {
 
     for (let i = 1; i <= 100; i++) { // Ciclo for con 100 iterazioni
 
-        console.log(i);
+        let squares = document.createElement('div'); // Creazione dinamica elemento (div)
+
+        squares.innerHTML = `${i}`;
+
+        console.log(squares);
 
     };
 
