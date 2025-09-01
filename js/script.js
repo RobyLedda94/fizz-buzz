@@ -22,9 +22,26 @@ btn_fizzBuzz.addEventListener('click', function () {
 
         let squares = document.createElement('div'); // Creazione dinamica elemento (div)
 
-        squares.innerHTML = `${i}`;
+        gridfizzBuzz.appendChild(squares); // Appendo gli elementi creati alla griglia
 
-        console.log(squares);
+        squares.classList.add('square'); // classe css agli elementi creati
+
+        if (i % 3 === 0 && i % 5 === 0) {
+
+            squares.innerHTML = `FizzBuzz`;
+
+        } else if (i % 3 === 0) {
+
+            squares.innerHTML = `Fizz`;
+
+        } else if (i % 5 === 0) {
+
+            squares.innerHTML = `Buzz`;
+
+        } else {
+
+            squares.innerHTML = `${i}`;
+        };
 
     };
 
