@@ -12,3 +12,12 @@ let gridfizzBuzz = document.getElementById('gridFizzBuzz') // Griglia FizzBuzz
 // Debugging
 
 console.log(btn_fizzBuzz, grid_container, gridfizzBuzz);
+
+
+// Gestione evento start
+
+btn_fizzBuzz.addEventListener('click', function () {
+
+    console.log(this);
+
+});
