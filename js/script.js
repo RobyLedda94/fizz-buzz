@@ -1,6 +1,8 @@
 // Dichiarazione delle variabili
 
-let btn_fizzBuzz = document.getElementById('btn-fizzBuzz-start'); // Bottone Start
+let btn_fizzBuzz_start = document.getElementById('btn-fizzBuzz-start'); // Bottone Start
+
+let btn_fizBuzz_reset = document.getElementById('btn-fizzBuzz-reset'); // Bottone Reset
 
 
 let grid_container = document.getElementById('grid-container') // Contenitore della griglia
@@ -11,7 +13,7 @@ let gridfizzBuzz = document.getElementById('gridFizzBuzz') // Griglia FizzBuzz
 
 // Debugging
 
-console.log(btn_fizzBuzz, grid_container, gridfizzBuzz);
+console.log();
 
 
 
@@ -19,7 +21,7 @@ console.log(btn_fizzBuzz, grid_container, gridfizzBuzz);
 
 // Gestione evento start
 
-btn_fizzBuzz.addEventListener('click', function () {
+btn_fizzBuzz_start.addEventListener('click', function () {
 
     // Stile al contenitore
 
@@ -77,4 +79,16 @@ btn_fizzBuzz.addEventListener('click', function () {
 
         };
     };
+});
+
+
+
+// Gestione evento reset
+
+btn_fizBuzz_reset.addEventListener('click', function () {
+
+
+    console.log(this); // Debugging
+
+
 });
