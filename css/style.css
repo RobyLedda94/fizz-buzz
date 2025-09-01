@@ -16,6 +16,7 @@
 
 .content-main {
     background-color: cadetblue;
+    padding: 10px;
 }
 
 
@@ -27,6 +28,9 @@
 .square {
     width: calc(100% / 2);
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 1px solid black;
 }
