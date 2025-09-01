@@ -18,6 +18,10 @@ console.log(btn_fizzBuzz, grid_container, gridfizzBuzz);
 
 btn_fizzBuzz.addEventListener('click', function () {
 
-    console.log(this);
+    for (let i = 1; i <= 100; i++) { // Ciclo for con 100 iterazioni
+
+        console.log(i);
+
+    };
 
 });
